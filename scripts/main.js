@@ -1,7 +1,7 @@
 require.config({
-	baseUrl : 'scripts'
+ baseUrl : 'scripts'
 });
 
 requirejs(["app"],function(App){
-		App.initialize();
+	App.initialize();
 });
